@@ -42,8 +42,4 @@ jobs:
             echo "::set-output name=tests_passed::false"
           fi
 
-      # Step 5: Automerge with Renovate only if tests passed
-      - name: Automerge with Renovate
-        if: ${{ steps.tests.outputs.tests_passed == 'true' }}
-        run: npx renovate --autotarget minor --automerge
         

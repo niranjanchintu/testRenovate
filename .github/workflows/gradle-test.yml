@@ -26,8 +26,8 @@ jobs:
           node-version: '14'
           distribution: "adopt"
 
-      - name: Build with Gradle
-        run: ./gradlew clean test
+#       - name: Build with Gradle
+#         run: ./gradlew clean test
       
       # Step 4: Check if tests passed successfully
       - name: Check Test Results

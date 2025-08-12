@@ -22,7 +22,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web-services'
 	implementation 'org.testng:testng:7.10.2'
 	implementation 'org.junit.jupiter:junit-jupiter:5.13.4'
-	implementation group: 'xml-apis', name: 'xml-apis', version: '1.4.01'
+	implementation group: 'xml-apis', name: 'xml-apis', version: '2.0.2'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.18'
 	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.13.4'

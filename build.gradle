@@ -26,7 +26,7 @@ dependencies {
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.18'
 	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.13.4'
-	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.13.4'
 	implementation group: 'org.springframework', name: 'spring-context', version: '6.0.6'
 	implementation group: 'org.springframework', name: 'spring-beans', version: '6.2.10'
 	implementation group: 'org.springframework', name: 'spring-web', version: '6.2.10'
